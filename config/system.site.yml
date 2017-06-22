@@ -1,0 +1,14 @@
+uuid: b9f189f1-cdcd-4e23-8c8f-612f63975cfd
+name: nickhat-testing
+mail: sbbutkcin@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo
