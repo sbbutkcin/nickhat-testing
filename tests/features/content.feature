@@ -78,7 +78,7 @@ Feature: Content
     Given "tags" terms:
     | name    |
     | Tag one |
-    | Tag two |
+    | Tag three |
     And I am logged in as a user with the "administrator" role
     When I go to "admin/structure/taxonomy/manage/tags/overview"
     Then I should see "Tag one"
