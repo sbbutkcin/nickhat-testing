@@ -83,6 +83,12 @@ Feature: Content
     When I go to "admin/structure/taxonomy/manage/tags/overview"
     Then I should see "Tag one"
     And I should see "Tag three"
+    
+    
+  @api
+  Scenario: Add a basic page
+    Given I am on "/"
+    Then I should see "Its fine, It will be fine"
 
 #  @api
 #  Scenario: Create nodes with specific authorship
