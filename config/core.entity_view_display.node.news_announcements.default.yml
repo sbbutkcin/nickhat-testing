@@ -1,0 +1,40 @@
+uuid: eea37ccc-7a52-4bec-92d6-b5e72d39d93b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.news_announcements.body
+    - field.field.node.news_announcements.field_link
+    - node.type.news_announcements
+  module:
+    - link
+    - text
+    - user
+id: node.news_announcements.default
+targetEntityType: node
+bundle: news_announcements
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_link:
+    weight: 102
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
